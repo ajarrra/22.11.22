@@ -5,18 +5,20 @@
 main{
     display: flex;
      
-    
+    flex-wrap: wrap;
 }
 
 header{
     background-color: aqua;
-
+    flex: 1 1 100%;
 }
 
 aside{
     background-color: rgb(184, 184, 105);
+    flex: 0 0 250px;
 }
 
 article{
     background-color: rgb(237, 147, 67);
+    flex: 1 1 0;
 }
