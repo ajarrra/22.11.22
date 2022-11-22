@@ -1,3 +1,22 @@
 *{
     box-sizing: border-box;
 }
+
+main{
+    display: flex;
+     
+    
+}
+
+header{
+    background-color: aqua;
+
+}
+
+aside{
+    background-color: rgb(184, 184, 105);
+}
+
+article{
+    background-color: rgb(237, 147, 67);
+}
